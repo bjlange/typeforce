@@ -12,7 +12,7 @@
   "dependencies": {
     "babel-runtime": "latest",
     "d3": "latest",
-    "lodash": "latest"
+    "lodash": "^4.17.5"
   },
   "devDependencies": {
     "babel-core": "latest",

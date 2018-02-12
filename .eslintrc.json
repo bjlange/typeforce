@@ -1,5 +1,9 @@
 {
-  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module"
+  },
+  "extends": "eslint:recommended",
   "env": {
     "browser": true,
     "node": true
@@ -9,15 +13,12 @@
     "comma-dangle": ["error", "never"],
     "no-plusplus": 0,
     "func-names": 0,
-    "arrow-body-style": ["error", "as-needed"],
+    "arrow-body-style": ["warn", "as-needed"],
     "no-param-reassign": 0,
     "space-before-function-paren": 0,
-    "react/forbid-prop-types": 0,
-    "react/no-find-dom-node": 0,
-    "react/no-multi-comp": 0
+    "no-console": "warn"
   },
   "plugins": [
-    "react",
     "jsx-a11y",
     "import"
   ]

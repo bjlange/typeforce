@@ -12,7 +12,8 @@
   "dependencies": {
     "babel-runtime": "latest",
     "d3": "latest",
-    "lodash": "^4.17.5"
+    "lodash": "^4.17.5",
+    "markov-chains": "^1.0.2"
   },
   "devDependencies": {
     "babel-core": "latest",
